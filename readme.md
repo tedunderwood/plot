@@ -23,3 +23,8 @@ The actual core of the code for BERT is shockingly simple:
     loss, logits = model(**encoding, next_sentence_label=torch.LongTensor([1]))
 
 The [documentation for the HuggingFace implementation of **transformers**](https://huggingface.co/transformers/model_doc/bert.html#bertfornextsentenceprediction) is actually fairly comprehensible.
+
+Before and after prediction
+---------------------------
+
+Jupyter notebooks and metadata coming soon!
